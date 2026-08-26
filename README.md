@@ -1,25 +1,4 @@
 
-# Stremio TV service for Media Station X
-
-This is a Media Station X service that opens Stremio TV Web.
-
-NOTE: YOU MIGHT WANT THE [STREMIO SERVICE](https://www.stremio.com/download-service) OR A DEBRID SERVICE RUNNING TOGETHER WITH THIS SERVICE.
-
-# Update: [Since April 30, 2024 Stremio is now available on LG Content Store for models 2020+](https://blog.stremio.com/stremio-is-now-available-on-lg-tvs-for-models-2020/). I'm maintaining this repo public for now, as it can be usefull for people with older TV models.
-
-## Motivation
-
-As in this repo's publication date there isn't an official Stremio app for LGTV's WebOS system. The methods to get around it are impratical, in need of additional hardware or infunctional in some televisions (casting, chromecast or native web browser).
-
-## Solution
-
-With this in mind, recently I found out about Media Station X's existence, a cross-platform web application for creating customized media pages, as said by them in their website. Also found out about a MSX service (MSXPlayer) possible to configure to open webpages (like Stremio Web), but it has some problems in my view: this service is only available in russian and it requires to choose which webpage to open every time the app opens.
-
-## Final Product
-
-I researched and developed this (low effort) MSX service that serves purely for opening the Stremio TV Web as soon as the Media Station X finishes loading.
-
-
 ## Tutorial (LGTV's WebOS in mind but works to all devices)
 
 1. Create a [Stremio account](https://www.stremio.com/register)
